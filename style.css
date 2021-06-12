@@ -1,0 +1,15 @@
+/* tablet */
+@media screen and (min-width: 481px) {
+}
+
+/* small screens, laptops */
+@media screen and (min-width: 769px) {
+}
+
+/* desktops, large screens */
+@media screen and (min-width: 1025px) {
+}
+
+/* extra large screens, TV */
+@media screen and (min-width: 1201px) {
+}
