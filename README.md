@@ -4,11 +4,13 @@ In this project, we will learn how to use css media queries to help us make our 
 
 Using our chrome developer tools is a great way to help us simulate being on different devices. Click `cmd opt j` to open the developer tools pane, and you can click on the devices icon on the top left side of the pane.
 
-[insert picture]
+<img width="671" alt="devtools_devices_icon" src="https://user-images.githubusercontent.com/68203064/121782140-9dcbc280-cb54-11eb-85e9-6e4c335171e6.png">
+
 
 You can then pick a device you want to simulate.
 
-[insert picture]
+<img width="677" alt="devtools_device_picker" src="https://user-images.githubusercontent.com/68203064/121782153-a91eee00-cb54-11eb-9b64-9e94c1ac7296.png">
+
 
 Pretty cool, right?! Let's start writing code :)
 
@@ -74,7 +76,8 @@ In our `style.css` file, let's add some media queries for each of the different 
 
 Let's create a header first. Remember we want to start with what we want the header to look like on mobile first. Here's a picture of what we are wanting to create.
 
-[insert picture here]
+<img width="500" alt="header_mobile" src="https://user-images.githubusercontent.com/68203064/121782226-fac77880-cb54-11eb-9c6e-06cbda11ba42.png">
+
 
 Since there is nothing else on our website right now, let's go ahead and give the header a border-bottom that we will remove later.
 
@@ -147,7 +150,7 @@ header {
 
 Now let's make our header have navigation links instead of a hamburger menu if the website is being viewed on a desktop.
 
-[insert image here]
+<img width="793" alt="header_desktop" src="https://user-images.githubusercontent.com/68203064/121782236-061aa400-cb55-11eb-9c03-ecdde43c1cfb.png">
 
 <details>
 <summary>index.html</summary>
@@ -235,7 +238,8 @@ nav {
 
 Let's create an image banner for our website. On mobile we will want the banner to fill the screen and we will have some text in it.
 
-[insert image here]
+<img width="377" alt="banner_mobile" src="https://user-images.githubusercontent.com/68203064/121782255-1cc0fb00-cb55-11eb-90f4-ce28508241de.png">
+
 
 <details>
 <summary>index.html</summary>
@@ -353,7 +357,8 @@ nav {
 
 Let's make this banner section responsive for other devices.
 
-[insert image here]
+<img width="1038" alt="banner_desktop" src="https://user-images.githubusercontent.com/68203064/121782273-40844100-cb55-11eb-8c9e-e698716590a1.png">
+
 
 <details>
 <summary>index.html</summary>
@@ -481,8 +486,6 @@ nav {
 ### Step 7.
 
 Do what you want in this step! Just practice using media queries and have fun with it. If you are following along with the video (which I hope you are), I will create a small section under the banner image, but you can do what you want!
-
-[insert image here]
 
 <details>
 <summary>index.html</summary>
