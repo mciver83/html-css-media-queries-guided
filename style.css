@@ -41,8 +41,15 @@ nav {
   line-height: 72px;
 }
 
+section {
+  padding: 16px;
+}
+
 /* tablet */
 @media screen and (min-width: 481px) {
+  section {
+    padding: 24px;
+  }
 }
 
 /* small screens, laptops */
@@ -54,10 +61,30 @@ nav {
   #mobile-ham-menu {
     display: none;
   }
+
+  .banner {
+    flex-direction: row;
+    height: 500px;
+  }
+
+  .banner h1 {
+    margin: 0 12px;
+  }
+
+  section {
+    padding: 40px;
+  }
 }
 
 /* desktops, large screens */
 @media screen and (min-width: 1025px) {
+  .banner h1 {
+    font-size: 72px;
+  }
+
+  section {
+    padding: 48px;
+  }
 }
 
 /* extra large screens, TV */
