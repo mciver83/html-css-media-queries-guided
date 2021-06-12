@@ -4,11 +4,13 @@ In this project, we will learn how to use css media queries to help us make our 
 
 Using our chrome developer tools is a great way to help us simulate being on different devices. Click `cmd opt j` to open the developer tools pane, and you can click on the devices icon on the top left side of the pane.
 
-[insert picture]
+<img width="671" alt="devtools_devices_icon" src="https://user-images.githubusercontent.com/68203064/121782140-9dcbc280-cb54-11eb-85e9-6e4c335171e6.png">
+
 
 You can then pick a device you want to simulate.
 
-[insert picture]
+<img width="677" alt="devtools_device_picker" src="https://user-images.githubusercontent.com/68203064/121782153-a91eee00-cb54-11eb-9b64-9e94c1ac7296.png">
+
 
 Pretty cool, right?! Let's start writing code :)
 
